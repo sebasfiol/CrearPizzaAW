@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43D727D1D324B71006A2858 /* vistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D727C1D324B71006A2858 /* vistaConfirmacion.swift */; };
+		C43D727F1D3256F6006A2858 /* PizzaTamanyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D727E1D3256F6006A2858 /* PizzaTamanyo.swift */; };
+		C43D72811D325B96006A2858 /* PizzaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D72801D325B96006A2858 /* PizzaMasa.swift */; };
+		C43D72831D325D78006A2858 /* PizzaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D72821D325D78006A2858 /* PizzaQueso.swift */; };
+		C43D72851D325EE1006A2858 /* PizzaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D72841D325EE1006A2858 /* PizzaIngredientes.swift */; };
+		C46B10361D2ADCB000EB9FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10351D2ADCB000EB9FCD /* AppDelegate.swift */; };
+		C46B10381D2ADCB000EB9FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10371D2ADCB000EB9FCD /* ViewController.swift */; };
+		C46B103B1D2ADCB000EB9FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46B10391D2ADCB000EB9FCD /* Main.storyboard */; };
+		C46B103D1D2ADCB000EB9FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46B103C1D2ADCB000EB9FCD /* Assets.xcassets */; };
+		C46B10401D2ADCB000EB9FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46B103E1D2ADCB000EB9FCD /* LaunchScreen.storyboard */; };
+		C46B10451D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C46B10441D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app */; };
+		C46B104B1D2ADCB100EB9FCD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46B10491D2ADCB100EB9FCD /* Interface.storyboard */; };
+		C46B104D1D2ADCB100EB9FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46B104C1D2ADCB100EB9FCD /* Assets.xcassets */; };
+		C46B10541D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C46B10531D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C46B10591D2ADCB100EB9FCD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10581D2ADCB100EB9FCD /* InterfaceController.swift */; };
+		C46B105B1D2ADCB100EB9FCD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B105A1D2ADCB100EB9FCD /* ExtensionDelegate.swift */; };
+		C46B105D1D2ADCB100EB9FCD /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B105C1D2ADCB100EB9FCD /* GlanceController.swift */; };
+		C46B105F1D2ADCB100EB9FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46B105E1D2ADCB100EB9FCD /* Assets.xcassets */; };
+		C46B106F1D2AF0F800EB9FCD /* vistaTamanyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B106E1D2AF0F800EB9FCD /* vistaTamanyo.swift */; };
+		C46B10711D2AF4E200EB9FCD /* vistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10701D2AF4E200EB9FCD /* vistaMasa.swift */; };
+		C46B10731D2AF81500EB9FCD /* vistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10721D2AF81500EB9FCD /* vistaQueso.swift */; };
+		C46B10751D2AF92800EB9FCD /* vistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B10741D2AF92800EB9FCD /* vistaIngredientes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C46B10461D2ADCB100EB9FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46B102A1D2ADCB000EB9FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46B10431D2ADCB100EB9FCD;
+			remoteInfo = "CrearPizzaAW WatchKit App";
+		};
+		C46B10551D2ADCB100EB9FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46B102A1D2ADCB000EB9FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46B10521D2ADCB100EB9FCD;
+			remoteInfo = "CrearPizzaAW WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C46B10661D2ADCB100EB9FCD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C46B10541D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46B106A1D2ADCB100EB9FCD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C46B10451D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C43D727C1D324B71006A2858 /* vistaConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaConfirmacion.swift; sourceTree = "<group>"; };
+		C43D727E1D3256F6006A2858 /* PizzaTamanyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaTamanyo.swift; sourceTree = "<group>"; };
+		C43D72801D325B96006A2858 /* PizzaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaMasa.swift; sourceTree = "<group>"; };
+		C43D72821D325D78006A2858 /* PizzaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaQueso.swift; sourceTree = "<group>"; };
+		C43D72841D325EE1006A2858 /* PizzaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaIngredientes.swift; sourceTree = "<group>"; };
+		C46B10321D2ADCB000EB9FCD /* CrearPizzaAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrearPizzaAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46B10351D2ADCB000EB9FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C46B10371D2ADCB000EB9FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C46B103A1D2ADCB000EB9FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C46B103C1D2ADCB000EB9FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46B103F1D2ADCB000EB9FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C46B10411D2ADCB000EB9FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46B10441D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrearPizzaAW WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46B104A1D2ADCB100EB9FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C46B104C1D2ADCB100EB9FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46B104E1D2ADCB100EB9FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46B10531D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrearPizzaAW WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46B10581D2ADCB100EB9FCD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C46B105A1D2ADCB100EB9FCD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C46B105C1D2ADCB100EB9FCD /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		C46B105E1D2ADCB100EB9FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46B10601D2ADCB100EB9FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46B106E1D2AF0F800EB9FCD /* vistaTamanyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaTamanyo.swift; sourceTree = "<group>"; };
+		C46B10701D2AF4E200EB9FCD /* vistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaMasa.swift; sourceTree = "<group>"; };
+		C46B10721D2AF81500EB9FCD /* vistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaQueso.swift; sourceTree = "<group>"; };
+		C46B10741D2AF92800EB9FCD /* vistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaIngredientes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46B102F1D2ADCB000EB9FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46B10501D2ADCB100EB9FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46B10291D2ADCB000EB9FCD = {
+			isa = PBXGroup;
+			children = (
+				C46B10341D2ADCB000EB9FCD /* CrearPizzaAW */,
+				C46B10481D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App */,
+				C46B10571D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension */,
+				C46B10331D2ADCB000EB9FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46B10331D2ADCB000EB9FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46B10321D2ADCB000EB9FCD /* CrearPizzaAW.app */,
+				C46B10441D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app */,
+				C46B10531D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46B10341D2ADCB000EB9FCD /* CrearPizzaAW */ = {
+			isa = PBXGroup;
+			children = (
+				C46B10351D2ADCB000EB9FCD /* AppDelegate.swift */,
+				C46B10371D2ADCB000EB9FCD /* ViewController.swift */,
+				C46B10391D2ADCB000EB9FCD /* Main.storyboard */,
+				C46B103C1D2ADCB000EB9FCD /* Assets.xcassets */,
+				C46B103E1D2ADCB000EB9FCD /* LaunchScreen.storyboard */,
+				C46B10411D2ADCB000EB9FCD /* Info.plist */,
+			);
+			path = CrearPizzaAW;
+			sourceTree = "<group>";
+		};
+		C46B10481D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C46B10491D2ADCB100EB9FCD /* Interface.storyboard */,
+				C46B104C1D2ADCB100EB9FCD /* Assets.xcassets */,
+				C46B104E1D2ADCB100EB9FCD /* Info.plist */,
+			);
+			path = "CrearPizzaAW WatchKit App";
+			sourceTree = "<group>";
+		};
+		C46B10571D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C46B10581D2ADCB100EB9FCD /* InterfaceController.swift */,
+				C46B105A1D2ADCB100EB9FCD /* ExtensionDelegate.swift */,
+				C46B105C1D2ADCB100EB9FCD /* GlanceController.swift */,
+				C46B105E1D2ADCB100EB9FCD /* Assets.xcassets */,
+				C46B10601D2ADCB100EB9FCD /* Info.plist */,
+				C46B106E1D2AF0F800EB9FCD /* vistaTamanyo.swift */,
+				C46B10701D2AF4E200EB9FCD /* vistaMasa.swift */,
+				C46B10721D2AF81500EB9FCD /* vistaQueso.swift */,
+				C46B10741D2AF92800EB9FCD /* vistaIngredientes.swift */,
+				C43D727C1D324B71006A2858 /* vistaConfirmacion.swift */,
+				C43D727E1D3256F6006A2858 /* PizzaTamanyo.swift */,
+				C43D72801D325B96006A2858 /* PizzaMasa.swift */,
+				C43D72821D325D78006A2858 /* PizzaQueso.swift */,
+				C43D72841D325EE1006A2858 /* PizzaIngredientes.swift */,
+			);
+			path = "CrearPizzaAW WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46B10311D2ADCB000EB9FCD /* CrearPizzaAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46B106B1D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW" */;
+			buildPhases = (
+				C46B102E1D2ADCB000EB9FCD /* Sources */,
+				C46B102F1D2ADCB000EB9FCD /* Frameworks */,
+				C46B10301D2ADCB000EB9FCD /* Resources */,
+				C46B106A1D2ADCB100EB9FCD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46B10471D2ADCB100EB9FCD /* PBXTargetDependency */,
+			);
+			name = CrearPizzaAW;
+			productName = CrearPizzaAW;
+			productReference = C46B10321D2ADCB000EB9FCD /* CrearPizzaAW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C46B10431D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46B10671D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW WatchKit App" */;
+			buildPhases = (
+				C46B10421D2ADCB100EB9FCD /* Resources */,
+				C46B10661D2ADCB100EB9FCD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46B10561D2ADCB100EB9FCD /* PBXTargetDependency */,
+			);
+			name = "CrearPizzaAW WatchKit App";
+			productName = "CrearPizzaAW WatchKit App";
+			productReference = C46B10441D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C46B10521D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46B10631D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW WatchKit Extension" */;
+			buildPhases = (
+				C46B104F1D2ADCB100EB9FCD /* Sources */,
+				C46B10501D2ADCB100EB9FCD /* Frameworks */,
+				C46B10511D2ADCB100EB9FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrearPizzaAW WatchKit Extension";
+			productName = "CrearPizzaAW WatchKit Extension";
+			productReference = C46B10531D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46B102A1D2ADCB000EB9FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SebasFiol;
+				TargetAttributes = {
+					C46B10311D2ADCB000EB9FCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NH77L6EUQH;
+					};
+					C46B10431D2ADCB100EB9FCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NH77L6EUQH;
+					};
+					C46B10521D2ADCB100EB9FCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NH77L6EUQH;
+					};
+				};
+			};
+			buildConfigurationList = C46B102D1D2ADCB000EB9FCD /* Build configuration list for PBXProject "CrearPizzaAW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C46B10291D2ADCB000EB9FCD;
+			productRefGroup = C46B10331D2ADCB000EB9FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46B10311D2ADCB000EB9FCD /* CrearPizzaAW */,
+				C46B10431D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App */,
+				C46B10521D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46B10301D2ADCB000EB9FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B10401D2ADCB000EB9FCD /* LaunchScreen.storyboard in Resources */,
+				C46B103D1D2ADCB000EB9FCD /* Assets.xcassets in Resources */,
+				C46B103B1D2ADCB000EB9FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46B10421D2ADCB100EB9FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B104D1D2ADCB100EB9FCD /* Assets.xcassets in Resources */,
+				C46B104B1D2ADCB100EB9FCD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46B10511D2ADCB100EB9FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B105F1D2ADCB100EB9FCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46B102E1D2ADCB000EB9FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B10381D2ADCB000EB9FCD /* ViewController.swift in Sources */,
+				C46B10361D2ADCB000EB9FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46B104F1D2ADCB100EB9FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43D72811D325B96006A2858 /* PizzaMasa.swift in Sources */,
+				C43D72851D325EE1006A2858 /* PizzaIngredientes.swift in Sources */,
+				C46B105B1D2ADCB100EB9FCD /* ExtensionDelegate.swift in Sources */,
+				C43D727D1D324B71006A2858 /* vistaConfirmacion.swift in Sources */,
+				C46B106F1D2AF0F800EB9FCD /* vistaTamanyo.swift in Sources */,
+				C46B10591D2ADCB100EB9FCD /* InterfaceController.swift in Sources */,
+				C43D72831D325D78006A2858 /* PizzaQueso.swift in Sources */,
+				C46B10731D2AF81500EB9FCD /* vistaQueso.swift in Sources */,
+				C46B10711D2AF4E200EB9FCD /* vistaMasa.swift in Sources */,
+				C46B105D1D2ADCB100EB9FCD /* GlanceController.swift in Sources */,
+				C46B10751D2AF92800EB9FCD /* vistaIngredientes.swift in Sources */,
+				C43D727F1D3256F6006A2858 /* PizzaTamanyo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C46B10471D2ADCB100EB9FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46B10431D2ADCB100EB9FCD /* CrearPizzaAW WatchKit App */;
+			targetProxy = C46B10461D2ADCB100EB9FCD /* PBXContainerItemProxy */;
+		};
+		C46B10561D2ADCB100EB9FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46B10521D2ADCB100EB9FCD /* CrearPizzaAW WatchKit Extension */;
+			targetProxy = C46B10551D2ADCB100EB9FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C46B10391D2ADCB000EB9FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46B103A1D2ADCB000EB9FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C46B103E1D2ADCB000EB9FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46B103F1D2ADCB000EB9FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C46B10491D2ADCB100EB9FCD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46B104A1D2ADCB100EB9FCD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C46B10611D2ADCB100EB9FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C46B10621D2ADCB100EB9FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46B10641D2ADCB100EB9FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CrearPizzaAW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C46B10651D2ADCB100EB9FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CrearPizzaAW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C46B10681D2ADCB100EB9FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CrearPizzaAW_WatchKit_Extension;
+				INFOPLIST_FILE = "CrearPizzaAW WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C46B10691D2ADCB100EB9FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CrearPizzaAW_WatchKit_Extension;
+				INFOPLIST_FILE = "CrearPizzaAW WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C46B106C1D2ADCB100EB9FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrearPizzaAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C46B106D1D2ADCB100EB9FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrearPizzaAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeefe.CrearPizzaAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46B102D1D2ADCB000EB9FCD /* Build configuration list for PBXProject "CrearPizzaAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46B10611D2ADCB100EB9FCD /* Debug */,
+				C46B10621D2ADCB100EB9FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46B10631D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46B10641D2ADCB100EB9FCD /* Debug */,
+				C46B10651D2ADCB100EB9FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46B10671D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46B10681D2ADCB100EB9FCD /* Debug */,
+				C46B10691D2ADCB100EB9FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46B106B1D2ADCB100EB9FCD /* Build configuration list for PBXNativeTarget "CrearPizzaAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46B106C1D2ADCB100EB9FCD /* Debug */,
+				C46B106D1D2ADCB100EB9FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C46B102A1D2ADCB000EB9FCD /* Project object */;
+}
